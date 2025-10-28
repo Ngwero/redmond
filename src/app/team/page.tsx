@@ -4,40 +4,45 @@ import { ArrowRight, GraduationCap, BookOpen, Users, Award, Globe, Briefcase, Tr
 export default function Team() {
   const partners = [
     {
-      name: "Gilbert",
-      role: "Litigation & Commercial Law",
-      focusArea: "Litigation & Commercial Law",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      name: "Nuwamanya Gilbert Katwire",
+      role: "Banking, Capital Markets & Commercial Law",
+      focusArea: "Banking, Capital Markets & Commercial Law",
+      image: "/Gilbert.jpg",
       keyHighlights: [
-        "Extensive experience in complex litigation",
-        "Commercial law expertise",
-        "Strong track record in dispute resolution"
+        "Partner at Redmond Associated Advocates",
+        "Member of the Chartered institute of Arbitration",
+        "Member of the Chartered institute of marketing",
+        "Member of the Corporate and Finance Department",
+        "Banking, Capital Markets, and Private Equity Practices",
+        "Strategic Client Committee member"
       ],
-      qualifications: "LLB, Advocate",
-      memberships: ["Uganda Law Society", "East African Law Society"],
-      publications: "Multiple publications on commercial law",
-      bio: "Gilbert brings years of experience in litigation and commercial law to REDMOND. His expertise in complex legal disputes and commercial transactions has helped numerous clients achieve successful outcomes."
+      qualifications: "Post Graduate Diploma in Legal Practice, LDC – Kampala, LLB (Makerere University School of Law), MBA (Makerere Business School), CIM UK (Charted Institute of Marketing), CIArb UK (Chartered Institute of Arbitration), B.A (Makerere University)",
+      memberships: ["Chartered Institute of Arbitration", "Chartered Institute of Marketing", "Corporate and Finance Department", "Banking, Capital Markets, and Private Equity Practices"],
+      publications: "Represented hundreds of major financing transactions in the country and the Region. Specializes in Public-Private Partnerships, Corporate and Commercial law, land conveyancing and investment advisory and electoral law.",
+      bio: "Nuwamanya Gilbert Katwire is a partner at Redmond Associated Advocates and is a member of the Chartered institute of Arbitration, member of the Chartered institute of marketing. Mr. Gilbert is a member of the Corporate and Finance Department; the Banking, Capital Markets, and Private Equity Practices; and the firm's Strategic Client Committee. Mr. Gilbert represents financial institutions, corporate borrowers, and other alternative financing providers in leveraged finance transactions with a particular focus on acquisition financings. Mr. Gilbert has also represented buyers and sellers in both public and private mergers and acquisitions transactions. Having advised on hundreds of large-cap syndicated loans, middle market loans, and direct lending transactions, Mr. Gilbert has broad exposure to the global banking market and its key participants. He regularly handles major financing transactions in the country and the Region."
     },
     {
-      name: "Kennedy",
-      role: "Commercial & Consultancy",
-      focusArea: "Commercial & Consultancy",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      name: "Kenedy Kushaba",
+      role: "Tax, Oil & Gas, Real Estate & Corporate Law",
+      focusArea: "Tax, Oil & Gas, Real Estate & Corporate Law",
+      image: "/kenedy.jpg",
       keyHighlights: [
-        "Commercial law specialist",
-        "Business consultancy expertise",
-        "Strategic legal advisory"
+        "Distinguished Partner at Redmond Associated Advocates",
+        "Member of Uganda Law Society, East African Law Society, and IBA",
+        "Esteemed lecturer of Law at Kampala International University",
+        "Extensive experience in complex dispute litigation",
+        "Specialized in Tax, Oil and Gas, Real Estate, and Corporate Practice"
       ],
-      qualifications: "LLB, Advocate",
-      memberships: ["Uganda Law Society", "Commercial Law Association"],
-      publications: "Contributions to commercial law journals",
-      bio: "Kennedy specializes in commercial law and provides strategic consultancy services to businesses. His practical approach to legal challenges helps clients make informed decisions."
+      qualifications: "LLM Oil & Gas (UCU)-Uganda Christian University, Post Graduate Diploma in Legal Practice-Law Development Centre, Bachelor of Laws-Kampala International University, Bachelor International Business-Makerere University, Post Graduate Diploma in Tax & Revenue - East African School of Taxation, Diploma in Law-Law Development Centre, PGD. Public International Law-Leiden University (Hague-Netherlands)",
+      memberships: ["Uganda Law Society", "East African Law Society", "International Bar Association"],
+      publications: "Attended Start up investors meeting in Dar es Salam on EAC Venture Capital",
+      bio: "Kenedy Kushaba is a distinguished Partner at Redmond Associated Advocates, bringing a wealth of expertise to our dynamic legal team. A proud member of the Uganda Law Society, East African Law Society, and the International Bar Association, Kenedy's dedication to the legal profession is evident in his extensive experience in complex dispute litigation. His specialized areas encompass Tax, Oil and Gas, Real Estate, and Corporate Practice, reflecting a deep understanding of intricate legal matters. With a commitment to excellence, Kenedy consistently delivers strategic solutions for our clients, making him an invaluable asset to our firm. Kenedy's proficiency extends beyond traditional legal practice. He is an esteemed lecturer of Law at the Kampala International University School of Law, imparting his extensive knowledge to the next generation of legal minds."
     },
     {
       name: "Alfred Habaasa",
       role: "Taxation & International Tax",
       focusArea: "Taxation & International Tax",
-      image: "https://images.unsplash.com/photo-1560250097-0b9354c04a0d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: "/Alfred.jpg",
       keyHighlights: [
         "Dual-qualified Ugandan CPA and Tax Lawyer",
         "Former URA Oil and Gas Division Supervisor",
@@ -54,22 +59,39 @@ export default function Team() {
         "Articles on cross-cutting tax issues",
         "Organized eminent tax professionals to create 'The Tax Association'"
       ],
-      bio: "Alfred Habaasa is a dual-qualified Ugandan CPA and tax Lawyer who previously supervised Transfer Pricing and International Tax reviews within the Oil and Gas/Mining Division at the Uganda Revenue Authority (URA). He is a recognized expert in taxation and tax policy, with a particular focus on international tax and extractives taxation. Before joining the URA in 2019, he served as a senior tax advisor at Ernst & Young (EY) Uganda from early 2015, undertaking a variety of tax assignments up to a senior tax advisor level. Beyond his professional role, Alfred is a highly regarded tax educator, with a current focus on tutoring International Tax and Transfer Pricing with Lettaz Tax Training. In this capacity, he attracts students from numerous countries, including Uganda, Kenya, Tanzania, Zambia, Zimbabwe, and the UK. Alfred is also a dedicated mentor evident from his approved mentor status for Oxford Brookes University, where he guides both Ugandan and international students through the BSc accounting degree ACCA pathway. Furthermore, he has authored several tax articles on various platforms, notably his contributions to the IBFD International VAT Monitor on international aspects of VAT. Alfred was also among members who organized eminent tax professionals to create 'The Tax Association' that aims to advance quality discussions on cross cutting tax issues."
+      bio: "Alfred Habaasa is a dual-qualified Ugandan CPA and tax Lawyer who previously supervised Transfer Pricing and International Tax reviews within the Oil and Gas/Mining Division at the Uganda Revenue Authority (URA). He is a recognized expert in taxation and tax policy, with a particular focus on international tax and extractives taxation. Before joining the URA in 2019, he served as a senior tax advisor at Ernst & Young (EY) Uganda from early 2015, undertaking a variety of tax assignments up to a senior tax advisor level. Beyond his professional role, Alfred is a highly regarded tax educator, with a current focus on tutoring International Tax and Transfer Pricing with Lettaz Tax Training. In this capacity, he attracts students from numerous countries, including Uganda, Kenya, Tanzania, Zambia, Zimbabwe, and the UK. Alfred is also a dedicated mentor evident from his approved mentor status for Oxford Brookes University, where he guides both Ugandan and international students through the BSc accounting degree ACCA pathway."
     },
     {
-      name: "Jotham",
-      role: "Legal Advisory",
-      focusArea: "Legal Advisory",
-      image: "/Jotham.jpg",
+      name: "Taremwa",
+      role: "Legal Consultant",
+      focusArea: "Legal Consultant",
+      image: "/Taremwa.jpg",
       keyHighlights: [
-        "Legal advisory specialist",
+        "Legal consultant specialist",
         "Compliance expertise",
         "Regulatory guidance"
       ],
       qualifications: "LLB, Advocate",
-      memberships: ["Uganda Law Society", "Legal Advisory Association"],
+      memberships: ["Uganda Law Society", "East African Law Society"],
       publications: "Articles on legal compliance and advisory services",
-      bio: "Jotham provides expert legal advisory services with a focus on compliance and regulatory matters. His attention to detail and comprehensive approach ensures clients receive thorough legal guidance."
+      bio: "Taremwa provides expert legal advisory services with a focus on compliance and regulatory matters. His attention to detail and comprehensive approach ensures clients receive thorough legal guidance."
+    },
+    {
+      name: "Nicholas",
+      role: "Corporate Practice & Litigation",
+      focusArea: "Corporate Practice & Litigation",
+      image: "/Nicholas.jpg",
+      keyHighlights: [
+        "Young result-oriented Advocate of the High court",
+        "Keen interest in corporate practice",
+        "Zealous to find practical solutions to modern day challenges",
+        "Touch of litigation",
+        "Vanguard force in manoeuvring various court processes"
+      ],
+      qualifications: "LLB, Advocate",
+      memberships: ["Uganda Law Society", "East African Law Society"],
+      publications: "Active in corporate law practice and litigation",
+      bio: "Nicholas is a young result-oriented Advocate of the High court with a keen interest in corporate practice. He is zealous to find practical solutions to modern day challenges in areas of corporate practice. Nicholas has a touch of litigation and he has proven to be a vanguard force in manoeuvring various court processes. You can count on Nicholas to resolve your Legal challenges."
     }
   ];
 
@@ -322,7 +344,7 @@ export default function Team() {
               <div className="w-20 h-20 bg-gradient-to-br from-redmond-blue to-redmond-dark-blue rounded-2xl mx-auto mb-4 flex items-center justify-center shadow-lg animate-pulse-slow">
                 <Users className="h-10 w-10 text-white" />
               </div>
-              <h3 className="text-5xl font-bold bg-gradient-to-r from-redmond-blue to-redmond-dark-blue bg-clip-text text-transparent mb-2">4</h3>
+              <h3 className="text-5xl font-bold bg-gradient-to-r from-redmond-blue to-redmond-dark-blue bg-clip-text text-transparent mb-2">5</h3>
               <p className="text-gray-700 font-bold text-lg">Expert Partners</p>
               <p className="text-sm text-gray-600 mt-2">Diverse expertise across legal and tax domains</p>
             </div>
